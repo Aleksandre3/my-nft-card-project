@@ -1,4 +1,4 @@
-# my-nft-card-project
+# nft-card-component
 
 ## Table of contents
 

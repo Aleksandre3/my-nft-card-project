@@ -1,0 +1,11 @@
+:root {
+  /*Primary*/
+  --primarySoftBlue: hsl(215, 51%, 70%);
+  --primaryCyan: hsl(178, 100%, 50%);
+
+  /*Neutral*/
+  --mainBg: hsl(217, 54%, 11%);
+  --darkBlueCardBg: hsl(216, 50%, 16%);
+  --darkBlueLine: hsl(215, 32%, 27%);
+  --white: hsl(0, 0%, 100%);
+}

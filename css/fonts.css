@@ -1,0 +1,9 @@
+:root {
+  --ff-Outfit: "Outfit", sans-serif;
+
+  --fw-light: 300;
+  --fw-regular: 400;
+  --fw-semiBold: 600;
+
+  --fs-paragraph: 18px;
+}

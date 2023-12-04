@@ -1,0 +1,133 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap");
+@import "./colors.css";
+@import "./fonts.css";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--mainBg);
+  font-size: var(--fs-paragraph);
+  font-family: var(--ff-Outfit);
+  color: var(--primarySoftBlue);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.nft-container {
+  max-width: 350px;
+  background-color: var(--darkBlueCardBg);
+  border-radius: 15px;
+  padding: 1.5rem 1.5rem 2rem;
+}
+.box-image {
+  position: relative;
+  width: 302px;
+  height: 302px;
+  border-radius: 8px;
+  background-color: var(--primaryCyan);
+  cursor: pointer;
+}
+
+.box-image:hover .nft-image {
+  opacity: 0.5;
+}
+
+.box-image:hover .view-icon {
+  display: block;
+}
+
+.nft-image {
+  width: 100%;
+  border-radius: 8px;
+  transition: 0.5s;
+}
+
+.nft-title {
+  color: var(--white);
+  font-size: 1.375rem;
+  font-weight: var(--fw-semiBold);
+  margin: 1.5rem 0 1rem;
+  transition: color 0.5s ease;
+}
+
+.nft-title:hover {
+  color: var(--primaryCyan);
+}
+.view-icon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: none;
+}
+
+.nft-paragraph {
+  font-weight: var(--fw-light);
+  line-height: 1.625rem;
+  font-size: 1.125rem;
+}
+
+.details-container,
+.profile-container,
+.eth-cont,
+.time-cont {
+  display: flex;
+  align-items: center;
+}
+
+.eth-cont,
+.time-cont {
+  gap: 0.405rem;
+}
+
+.eth-amount {
+  color: var(--primaryCyan);
+  font-weight: var(--fw-semiBold);
+}
+
+.day-time {
+  font-weight: var(--fw-regular);
+}
+
+.eth-amount,
+.day-time,
+.avatar-info {
+  font-size: 1rem;
+}
+.details-container {
+  justify-content: space-between;
+  margin: 1.5rem 0 1.5rem;
+}
+
+.line {
+  width: 100%;
+  height: 0.063rem;
+  background-color: var(--darkBlueLine);
+}
+
+.profile-container {
+  margin-top: 1rem;
+  gap: 1rem;
+}
+
+.avatar-image {
+  width: 33px;
+  height: 33px;
+  border: 1px solid var(--white);
+  border-radius: 50%;
+}
+
+.avatar-name {
+  color: var(--white);
+  transition: color 0.5s ease;
+}
+
+.avatar-name:hover {
+  color: var(--primaryCyan);
+}

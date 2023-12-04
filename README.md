@@ -31,6 +31,7 @@ Hover
 
 - Solution URL: https://github.com/Aleksandre3/my-nft-card-project
 - Live Site URL: https://aleksandre3.github.io/my-nft-card-project/
+- Figma file: https://www.figma.com/file/9nxWveXu4Fc48uMm8SXwsf/Untitled?type=design&node-id=0%3A1&mode=design&t=FsKLVRLpr9sMnnI1-1
 
 - ## My process
 
